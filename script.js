@@ -14,10 +14,15 @@ function greet(name) {
     return num1 - num2;
   }
 
+  function multiply(num1, num2) {
+    return num1 * num2;
+  }
+
 
   module.exports = {
     greet,
     add,
     reverse,
-    subtract
+    subtract,
+    multiply
   }
