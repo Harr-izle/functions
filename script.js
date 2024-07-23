@@ -10,9 +10,14 @@ function greet(name) {
     return str.split('').reverse().join('');
   }
 
+  function subtract(num1, num2) {
+    return num1 - num2;
+  }
+
 
   module.exports = {
     greet,
     add,
     reverse,
+    subtract
   }
