@@ -6,8 +6,13 @@ function greet(name) {
     return num1 + num2;
   }
 
+  function reverse(str) {
+    return str.split('').reverse().join('');
+  }
+
 
   module.exports = {
     greet,
-    add
+    add,
+    reverse,
   }
